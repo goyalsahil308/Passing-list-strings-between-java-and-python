@@ -50,7 +50,7 @@ First we will create var url,response,request,client
 Note:The below method can be used in java 9 or above
 We will paste our url in var url
 
-  var url="----------------"
+            var url="----------------"
 Request generated using:
 
     var request=HttpRequest.newBuilder().GET().uri(URI.create(url)).build();
