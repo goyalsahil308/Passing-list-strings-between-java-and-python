@@ -11,8 +11,8 @@ def home():
         count=[i for i in range(3)]
         fruitdict=dict(zip(count,fruits))
         # fruitdict=dict.fromkeys(fruits,"in stock")   Method will produce dict with all fruits as key and all stock as value
-        # return jsonify(fruitdict)
-        return jsonify(data)
+        return jsonify(fruitdict)
+        # return jsonify(data)
 
 
 if __name__=="__main__":
